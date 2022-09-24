@@ -1,0 +1,599 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    font-family: Poppins-Regular;
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(font/josefin-sans-new/JosefinSans-Bold.ttf);
+}
+
+.logo img {
+    margin: 40px 250px;
+    border-radius: 10px;
+    
+}
+.logo img:hover {
+    border: 1px solid gray;
+    color: black;
+}
+.navbar ul {
+    display: flex;
+    
+    margin-left: 600px;
+    margin-top: -110px;  
+}
+
+.navbar ul a {
+    margin: 40px;
+    text-decoration: none;
+    color: gray;
+}
+.navbar ul a:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .1s;
+}
+.pizza_text {
+    margin-top: 150px;
+    margin-left: 250px;
+    
+}
+.pizza_heading {
+    margin-bottom: 20px;
+    font-family: JosefinSans;
+    font-size: 35px;
+}
+.pizza_form {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 250px;
+    
+}
+.pizza_input input {
+    width: 300px;
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+.pizza_button button {
+    width: 100px;
+    height: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    background-color: green;
+    border: 3px solid green;
+    color: #fff;
+}
+
+.pizza_button button:hover {
+    background-color: lightgreen;
+    border: 3px solid green;
+    transition: .2s;
+}
+.pizza_img {
+    margin-left: 55%;
+    margin-top: -400px;
+}
+.pizza_img img {
+    width: 500px;
+    height: 500px;
+}
+.welcome {
+    margin-left: 750px;
+    margin-top: 100px;
+
+}
+.welcome_h4  {
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+.welcome_h2 {
+    margin-bottom: 20px;
+    font-family: Poppins-Regular;
+    font-size: 35px;
+}
+.welcome_button button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: green;
+    border: 3px solid green;
+    color: #fff;
+    margin-top: 20px;
+}
+.welcome_button button:hover {
+    background-color: lightgreen;
+    border: 3px solid green;
+    transition: .2s;
+}
+.chef img {
+    width: 430px;
+    height: 450px;
+    margin-left: 250px;
+    margin-top: -600px;
+    border-radius: 5px;
+}
+.history {
+    margin-left: 250px;
+    margin-top: 150px;
+
+}
+.history_h4  {
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+.history_h2 {
+    margin-bottom: 20px;
+    font-family: Poppins-Regular;
+    font-size: 30px;
+}
+.history_button button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: green;
+    border: 3px solid green;
+    color: #fff;
+    margin-top: 20px;
+}
+.history_button button:hover {
+    background-color: lightgreen;
+    border: 3px solid green;
+    transition: .2s;
+}
+.burger img {
+    width: 430px;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: -600px;
+    border-radius: 5px;
+}
+.reason {
+    margin-left: 50%;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+}
+.choose {
+    margin-left: 40%;
+    margin-bottom: 40px;
+    font-family: JosefinSans;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+
+.box1_1 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    
+    border-radius: 10px;
+    position: relative;
+
+    
+}
+.input {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.input img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.input h4 {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.box1_2 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    
+    border-radius: 10px;
+    position: relative;
+
+    
+}
+.bike {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.bike img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.bike h4 {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.box1_3 {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    
+    border-radius: 10px;
+    position: relative;
+
+    
+}
+.envelop {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.envelop img {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.envelop h4 {
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.box1 {
+    display: flex; 
+}
+.box1_3 {
+    margin-left: 950px;
+    margin-top: -300px;
+}
+.box1_2 {
+    margin-left: 140px;
+}
+.box1_1 {
+    margin-left: 100PX;
+}
+.box1_1:hover {
+    border-bottom: 5px solid green;
+    transition: .1s;
+    /* border: 1px solid gray; */
+
+}
+.box1_2:hover {
+    border-bottom: 5px solid green;
+    transition: .1s;
+    /* border: 1px solid gray; */
+
+}
+.box1_3:hover {
+    border-bottom: 5px solid green;
+    transition: .1s;
+
+}
+.browse {
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+}
+.menu {
+    margin-left: 42%;
+    margin-bottom: 40px;
+    font-family: JosefinSans;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.mix_sabzi img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+.mix_sabzi h5 {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family:  Poppins-Regular;
+    font-weight: bolder;
+    
+}
+.mix_sabzi p {
+   margin-left: 120px;
+}
+.dollar {
+    color: green;
+    font-weight: bolder;
+}
+.twenty {
+    text-decoration:line-through;
+}
+.plate1_1 {
+    width: 200px;
+    height: 260px;
+    background-color: #fff;
+    /* border: 2px solid rgb(241, 102, 22); */
+    border-radius: 5px;
+    position: relative;
+    
+}
+.mix_sabzi {
+    position: absolute;
+    right:10px
+}
+.plate1_1:hover {
+    border-bottom: 3px solid green;
+}
+.leg img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+.leg h5 {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family:  Poppins-Regular;
+    font-weight: bolder;
+    
+}
+.leg p {
+   margin-left: 120px;
+}
+.dollar {
+    color: green;
+    font-weight: bolder;
+}
+.twenty {
+    text-decoration:line-through;
+}
+.plate1_2 {
+    width: 200px;
+    height: 260px;
+    background-color: #fff;
+    /* border: 2px solid rgb(241, 102, 22); */
+    border-radius: 5px;
+    position: relative;
+    
+}
+.leg {
+    position: absolute;
+    right:10px
+}
+.plate1_2:hover {
+    border-bottom: 3px solid green;
+}
+.plate_sabzi img {
+    width: 250px;
+    margin-bottom: 10px;
+}
+.plate_sabzi h5 {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-family:  Poppins-Regular;
+    font-weight: bolder;
+    
+}
+.plate_sabzi p {
+   margin-left: 120px;
+}
+.dollar {
+    color: green;
+    font-weight: bolder;
+}
+.twenty {
+    text-decoration:line-through;
+}
+.plate1_3 {
+    width: 200px;
+    height: 260px;
+    background-color: #fff;
+    /* border: 2px solid rgb(241, 102, 22); */
+    border-radius: 5px;
+    position: relative;
+    
+}
+.plate_sabzi {
+    position: absolute;
+    right:10px
+}
+.plate1_3:hover {
+    border-bottom: 3px solid green;
+}
+.plate1 {
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+  
+}
+.list ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+.list ul li:hover {
+    color: darkgoldenrod;
+    font-weight: bolder;
+}
+.news {
+    margin-left: 52%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+}
+.latest {
+    margin-left: 45%;
+    margin-bottom: 40px;
+    font-family: JosefinSans;
+    font-size: 25px;
+    font-weight:bolder;
+}
+.roll {
+    margin-right: 150px;
+}
+.roll1_1 img {
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.roll1_1 h5 {
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.roll1_1 p {
+    margin-bottom: 10px;
+}
+.roll1_1 h6 {
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.roll1_2 img {
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.roll1_2 h5 {
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.roll1_2 p {
+    margin-bottom: 10px;
+}
+.roll1_2 h6 {
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.roll1_3 img {
+    width: 250px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.roll1_3 h5 {
+    font-family: Poppins-Regular;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.roll1_3 p {
+    margin-bottom: 10px;
+}
+.roll1_3 h6 {
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.roll1 {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.sub {
+    margin-left: 45%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+}
+.update{
+    margin-left: 35%;
+    margin-bottom: 40px;
+    font-family: JosefinSans;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+/* my css */
+.subscribe {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 10px;
+    margin-bottom: 150px;
+}
+.subscribe input {
+    width: 89%;
+    border: none;
+  
+}
+.subscribe input:focus{
+    outline: none;
+
+}
+i.fa-solid.fa-arrow-right-long {
+    border: 1px solid;
+    padding: 7px 9px;
+    border-radius: 60%;
+    background-color: green;  
+}
+i.fa-solid.fa-arrow-right-long:hover {
+    opacity: 0.8;
+}
+.footer {
+    border-top: 2px solid gray;
+    display: flex;
+}
+.figo_logo {
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.figo_logo img {
+    width: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px; 
+}
+.figo_logo img:hover {
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.figo_menu  {
+   margin-top: 50px;
+   margin-bottom: 40px;
+   margin-left: 100px;
+}
+.figo_menu h4 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.figo_menu ul li {
+    list-style: none;
+    margin: 20px;
+}
+.figo_menu ul li:hover {
+ color: darkgoldenrod;
+ font-weight: bolder;
+}
+.figo_link {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.figo_link h4 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.figo_link ul li {
+    list-style: none;
+    margin: 20px;
+}
+.figo_link ul li:hover {
+ color: darkgoldenrod;
+ font-weight: bolder;
+}
+.contact {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.contact h4 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.contact ul li {
+    list-style: none;
+    margin: 20px;
+}
+.contact ul li:hover {
+ color: darkgoldenrod;
+ font-weight: bolder;
+}
